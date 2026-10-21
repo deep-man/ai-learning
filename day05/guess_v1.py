@@ -1,3 +1,14 @@
+#要求：
+#程序随机生成 1-100 的整数
+#让用户输入猜测
+#猜大了提示“太大了”
+#猜小了提示“太小了”
+#猜对了提示“恭喜你，猜对了！”
+
+#import的意思是：导入（引入）一个模块
+#导入整个模块 import random
+#导入模块并起别名 import random as rd
+#只导入模块里的某个功能 from random import randint
 import random
 
 number = random.randint(1,100)
