@@ -1,0 +1,61 @@
+#用for求1到100的和，输出结果
+# total = 0
+# for i in range(1,101):
+#     total += i
+# print(total)
+
+# total = 0
+# for i in range(1,101):
+#     if i % 2 == 0:
+#         total += 1
+#     else:
+#         continue
+# #跳过本次循环剩下的代码
+# print(total)
+
+# scores = [85,92,78,90,66]
+# total_score = 0
+# max_score = scores[0]
+
+# print("遍历整个列表")
+# for i,s in enumerate(scores):
+#     print(s)
+# #    max_score = scores[i]
+#     total_score += scores[i]
+# for s in scores:
+#     if s > max_score:
+#         mix_score = s
+# print(f"列表中数值的最大值为{max_score}")
+# average_scores = total_score / len(scores)
+# print(f"列表中数值的平均为{average_scores}")
+#新增知识点
+# scores = [85,92,78,90,66]
+
+# print(max(scores))
+# print(max(scores))
+# print(sum(scores))
+# print(len(scores))
+# print(sum(scores) / len(scores))
+
+
+# student = {}
+# student["name"] = "小明"
+# student["age"] = 20
+# print(student)
+# student["age"] = 21
+# del student["name"]
+# print(student)
+
+nums = [3,7,2,9,5]
+total = 0
+max_num = nums[0]
+min_num = nums[0]
+for i in nums:
+    total += i
+    if i > max_num:
+        max_num = i
+    if i < min_num:
+        min_num = i
+print(f"总和：{total}")
+print(f"最大值为：{max_num}")
+print(f"最小值为：{min_num}")
