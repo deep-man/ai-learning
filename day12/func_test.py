@@ -17,5 +17,6 @@ def add(a, b):
     return a + b
 
 result = add(3, 5)
+#没有return的函数返回None
 print(result)
 
