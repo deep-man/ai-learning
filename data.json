@@ -1,0 +1,14 @@
+{
+  "name": "小明",
+  "age": 20,
+  "is_student": true,
+  "score": null,
+  "hobbies": [
+    "读书",
+    "跑步"
+  ],
+  "address": {
+    "city": "北京",
+    "district": "朝阳"
+  }
+}
