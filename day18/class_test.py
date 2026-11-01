@@ -57,3 +57,5 @@ print(s1.chinese)
 s1.chinese = 95
 print(s1.chinese)
 print(s1.total)
+
+#在类外面用self，self只在类方法里有意义
